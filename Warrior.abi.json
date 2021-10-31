@@ -1,0 +1,84 @@
+{
+	"ABI version": 2,
+	"version": "2.1",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+				{"name":"_base","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "attack",
+			"inputs": [
+				{"name":"enemy","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getAttackPower",
+			"inputs": [
+				{"name":"attackPower","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "sendAllMoneyAndDestroy",
+			"inputs": [
+				{"name":"killer","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "takeArmour",
+			"inputs": [
+				{"name":"armour","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "takeDamage",
+			"inputs": [
+				{"name":"_damage","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "checkIsAlive",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"bool"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"hp","type":"uint256"},
+		{"name":"ap","type":"uint256"},
+		{"name":"damage","type":"uint256"},
+		{"name":"hp","type":"uint256"},
+		{"name":"ap","type":"uint256"},
+		{"name":"base","type":"address"},
+		{"name":"baseAddress","type":"address"},
+		{"name":"damage","type":"uint256"},
+		{"name":"hp","type":"uint256"},
+		{"name":"ap","type":"uint256"},
+		{"name":"base","type":"address"},
+		{"name":"baseAddress","type":"address"}
+	]
+}
